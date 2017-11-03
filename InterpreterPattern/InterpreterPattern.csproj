@@ -40,8 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractExpression.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Evaluator.cs" />
     <Compile Include="InterpreterClass.cs" />
+    <Compile Include="NonterminalExpression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TerminalExpression.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InterpreterPattern.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

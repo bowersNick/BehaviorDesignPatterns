@@ -16,6 +16,8 @@ namespace BehaviorDesignPattern
 			}
 
 			CommandPattern.InteractiveShell.Run();
+
+			InterpreterPattern.Client.Main();
 		}
 	}
 }

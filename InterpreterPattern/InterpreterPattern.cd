@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InterpreterPattern.Client">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterpreterPattern.Context">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterpreterPattern.RpnExpression">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterpreterPattern.Number">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TerminalExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterpreterPattern.Add">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NonterminalExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterpreterPattern.Subtract">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NonterminalExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterpreterPattern.Multiply">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NonterminalExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterpreterPattern.Divide">
+    <Position X="13.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NonterminalExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
